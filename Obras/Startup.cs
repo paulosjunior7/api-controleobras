@@ -101,7 +101,7 @@ namespace Base.Project
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "BaseProject");
             });
 
-            app.UseRouting()
+            app.UseRouting();
             
             app.UseAuthentication();
             app.UseAuthorization();
